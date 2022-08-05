@@ -1,11 +1,3 @@
-console.log("Hello World")
-
-// esta es mi función que suma dos números
-const sum = (a,b) => {
-    return a + b
-}
-
-// solo un registro en consola para nosotros.
 const sum = (a,b) => {
     return a +b 
 };
@@ -14,12 +6,11 @@ console.log(sum(7,3));
 
 
 let oneEuroIs = {
-    "JPY": 127.9, // japan yen
-    "USD": 1.2, // us dollar
-    "GBP": 0.8, // british pound
+    "JPY": 127.9, 
+    "USD": 1.2, 
+    "GBP": 0.8, 
 }
 
-// let dolar, yen, euro, pound
 
 let fromEuroToDollar = function(euros){
 
